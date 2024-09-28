@@ -1,0 +1,25 @@
+{
+  "id": "81a4f601-a90d-4b5f-89bb-bc753816aff3",
+  "template": "app",
+  "versions": {
+    "AbpFramework": "8.2.0",
+    "AbpStudio": "0.7.1"
+  },
+  "modules": {
+    "Acme.QLSV": {
+      "path": "Acme.QLSV.abpmdl"
+    }
+  }, 
+  "runProfiles": {
+    "Default": {
+      "path": "etc/abp-studio/run-profiles/Default.abprun.json"
+    }
+  },
+  "options": {
+    "httpRequests": {
+        "ignoredUrls": [
+          "^/metrics$"
+      ]
+    }
+  }
+}

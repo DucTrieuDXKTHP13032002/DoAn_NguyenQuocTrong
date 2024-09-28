@@ -1,0 +1,89 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.Account": {
+      "version": "8.2.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "8.2.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "8.2.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "8.2.0",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Acme.QLSV.Application": {
+      "path": "src/Acme.QLSV.Application/Acme.QLSV.Application.abppkg",
+      "folder": "src"
+    },
+    "Acme.QLSV.Application.Tests": {
+      "path": "test/Acme.QLSV.Application.Tests/Acme.QLSV.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Acme.QLSV.Domain.Shared": {
+      "path": "src/Acme.QLSV.Domain.Shared/Acme.QLSV.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Acme.QLSV.Application.Contracts": {
+      "path": "src/Acme.QLSV.Application.Contracts/Acme.QLSV.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Acme.QLSV.HttpApi": {
+      "path": "src/Acme.QLSV.HttpApi/Acme.QLSV.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Acme.QLSV.HttpApi.Client": {
+      "path": "src/Acme.QLSV.HttpApi.Client/Acme.QLSV.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Acme.QLSV.Web": {
+      "path": "src/Acme.QLSV.Web/Acme.QLSV.Web.abppkg",
+      "folder": "src"
+    },
+    "Acme.QLSV.Web.Tests": {
+      "path": "test/Acme.QLSV.Web.Tests/Acme.QLSV.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "Acme.QLSV.EntityFrameworkCore.Tests": {
+      "path": "test/Acme.QLSV.EntityFrameworkCore.Tests/Acme.QLSV.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Acme.QLSV.EntityFrameworkCore": {
+      "path": "src/Acme.QLSV.EntityFrameworkCore/Acme.QLSV.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Acme.QLSV.TestBase": {
+      "path": "test/Acme.QLSV.TestBase/Acme.QLSV.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Acme.QLSV.Domain.Tests": {
+      "path": "test/Acme.QLSV.Domain.Tests/Acme.QLSV.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Acme.QLSV.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Acme.QLSV.HttpApi.Client.ConsoleTestApp/Acme.QLSV.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Acme.QLSV.DbMigrator": {
+      "path": "src/Acme.QLSV.DbMigrator/Acme.QLSV.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Acme.QLSV.Domain": {
+      "path": "src/Acme.QLSV.Domain/Acme.QLSV.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

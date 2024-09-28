@@ -1,0 +1,10 @@
+﻿{
+  "applications": {
+    "Acme.QLSV.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44397",
+      "path": "../../../src/Acme.QLSV.Web/Acme.QLSV.Web.csproj",
+      "kubernetesService": ".*-web$"
+    }
+  }
+}
